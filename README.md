@@ -1,5 +1,7 @@
 # engineering-writer
 
+![Engineering writer illustration](./assets/clarity-machine.png)
+
 A [Claude Code](https://claude.com/claude-code) skill for **senior-level engineering writing**.
 
 Most engineering writing prompts are template-fillers tuned for one genre (usually a tutorial). This skill is built for the hard cases — root-cause write-ups, deep "how it works" explainers, reference docs for complex systems — where the goal isn't just recording *what happened* but teaching the reader a **transferable mental model** they can reuse on a different problem next time.
