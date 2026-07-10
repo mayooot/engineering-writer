@@ -1,8 +1,8 @@
-# technical-writer
+# engineering-writer
 
-A [Claude Code](https://claude.com/claude-code) skill for **senior-level technical writing**.
+A [Claude Code](https://claude.com/claude-code) skill for **senior-level engineering writing**.
 
-Most "technical writer" prompts are template-fillers tuned for one genre (usually a tutorial). This skill is built for the hard cases — root-cause write-ups, deep "how it works" explainers, reference docs for complex systems — where the goal isn't just recording *what happened* but teaching the reader a **transferable mental model** they can reuse on a different problem next time.
+Most engineering writing prompts are template-fillers tuned for one genre (usually a tutorial). This skill is built for the hard cases — root-cause write-ups, deep "how it works" explainers, reference docs for complex systems — where the goal isn't just recording *what happened* but teaching the reader a **transferable mental model** they can reuse on a different problem next time.
 
 ## What it does
 
@@ -27,10 +27,10 @@ Clone into your Claude Code skills directory:
 
 ```bash
 # Global (available in every project)
-git clone https://github.com/<you>/technical-writer.git ~/.claude/skills/technical-writer
+git clone https://github.com/mayooot/engineering-writer.git ~/.claude/skills/engineering-writer
 
 # Or per-project
-git clone https://github.com/<you>/technical-writer.git .claude/skills/technical-writer
+git clone https://github.com/mayooot/engineering-writer.git .claude/skills/engineering-writer
 ```
 
 ## Use
@@ -38,7 +38,7 @@ git clone https://github.com/<you>/technical-writer.git .claude/skills/technical
 It triggers automatically when you ask Claude to write or heavily rewrite a technical document, or invoke it explicitly:
 
 ```
-/technical-writer document how the request-retry middleware works, sources: src/middleware/retry.ts
+/engineering-writer document how the request-retry middleware works, sources: src/middleware/retry.ts
 ```
 
 Point it at real sources — it reads them first, then writes.
